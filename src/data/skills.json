@@ -8,23 +8,54 @@
     "imageSrc": "skills/css.png"
   },
   {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/postman-icon.webp"
+  },
+  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
   {
+    "title": "Redux",
+    "imageSrc": "skills/Redux2.png"
+  },
+  {
     "title": "Node",
     "imageSrc": "skills/node.png"
+  },{
+    "title": "Ruby",
+    "imageSrc": "skills/ruby.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "Rails",
+    "imageSrc": "skills/rails.png"
   },
   {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "Git",
+    "imageSrc": "skills/git.png"
   },
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/Bootstrap_logo.svg.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "PostgresSql",
+    "imageSrc": "skills/postgresSql.png"
+  },
+  {
+    "title": "Jest",
+    "imageSrc": "skills/Jest.svg" 
   }
 ]
