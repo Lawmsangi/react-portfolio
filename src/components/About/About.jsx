@@ -31,7 +31,7 @@ const About = () => {
                     <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
                     <div className={styles.aboutItemText}>
                         <h3>UI Designer</h3>
-                        <p>I have designed multiple landing pages and have created design systems as well</p>
+                        <p>I specialize in crafting various landing pages and developing comprehensive design systems to ensure cohesive brand experiences</p>
                     </div>
                 </li>
             </ul>
