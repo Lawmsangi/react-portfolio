@@ -9,7 +9,7 @@
   },
   {
     "title": "Pokemon Library",
-    "imageSrc": "projects/work-2.png",
+    "imageSrc": "projects/work-3.png",
     "description": "A web app built with pokemon api that shows different pokemons where you can give likes and comments to each pokemon. Built using Javascript and webpack.",
     "skills": ["HTML", "JavaScript", "Webpack", "CSS","API"],
     "demo": "https://lawmsangi.github.io/pokemon-api-project/dist/",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Umbreon Books",
-    "imageSrc": "projects/work-3.png",
+    "imageSrc": "projects/work-2.png",
     "description": "This is a project made to learn the latest languages by building a bookstore app.User can browse for extensive collection spanning various genres, from timeless classics to contemporary bestsellers.",
     "skills": ["React", "HTML", "CSS","Database"],
     "demo": "https://umbreon-books.onrender.com/",
