@@ -6,27 +6,33 @@ import { getImageUrl } from "../../utils";
 export const Contact = () => {
   return (
     <footer id="contact" className={styles.container}>
-      <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
-      </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:lawmsangivarte22@email.com">lawmsangivarte22@email.com</a>
-        </li>
-        <li className={styles.link}>
-          <img
-            src={getImageUrl("contact/linkedinIcon.png")}
-            alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/in/lawmsangi-varte/">linkedin.com/lawmsangi-varte</a>
-        </li>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Lawmsangi">github.com/Lawmsangi</a>
-        </li>
-      </ul>
+        <div className={styles.content}>
+          <h2 className={styles.title}>Contact me</h2>
+          <p className={styles.description}>
+            If you have an application you are interested in developing, a feature that you need built, or a project that needs
+            coding, I’d love to help with it.
+          </p>
+          <form id="contact-form" action="https://formspree.io/f/mgebjlvz" method="post" target="_blank">
+            <ul>
+              <li>
+                <input type="text" name="name" id="name" placeholder="Enter your name" maxLength="30" required />
+              </li>
+              <li>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required />
+              </li>
+              <li>
+                <p id="error-msg"></p>
+              </li>
+              <li>
+                <textarea name="message" id="textarea" placeholder="Write your message here..." maxLength="500" required />
+              </li>
+
+              <li className={styles.btn}>
+                <button type="submit">Get in touch</button>
+              </li>
+            </ul>
+          </form>
+        </div>
     </footer>
   );
 };
